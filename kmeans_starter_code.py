@@ -62,6 +62,7 @@ def logic(data,Y):
 
     distanceBetPointsAndCentroids(Y)
     initial_iteration_centroids = return_best(Y)
+    print("at iteration 0 centroid values are: ", initial_iteration_centroids)
     min_values = return_closest(Y)
 
     for a in range(len(min_values)):
